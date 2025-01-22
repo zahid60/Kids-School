@@ -419,3 +419,38 @@ marquee {
   .section-title {
     margin: 40px 0px;
   }
+
+  /* footer section */
+  .footer {
+    flex-direction: column;
+    margin: 0 16px;
+    gap: 32px;
+  }
+  .footer-nav,
+  .footer-social {
+    margin: 0 16px;
+  }
+}
+
+/* Meduim Devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .highlight-card,
+  .btn-nav {
+    display: none;
+  }
+  .nav,
+  .banner,
+  .cards,
+  .grid-card,
+  .footer {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .card-containers {
+    justify-content: center;
+  }
+}
