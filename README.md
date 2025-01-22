@@ -45,7 +45,7 @@ A beautifully designed responsive website for a kids' school, highlighting the c
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/kids-school-website.git
+   git clone https://github.com/zahid60/Kids-School.git
    
 ---
 
